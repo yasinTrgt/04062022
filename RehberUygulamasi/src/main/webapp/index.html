@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rehber Uygulaması</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+
+<ul>
+    <li><a class="active" href="/">Anasayfa</a></li>
+    <li><a href="/listnumbers.html">Numara Listele</a></li>
+</ul>
+
+<form>
+    <center>
+        <h1>Rehber Kayıt Sistemi</h1>
+    </center>
+    <hr>
+
+    <label for="name">AD</label>
+    <input type="text" id="name" name="name">
+
+    <label for="lastName">Soyad</label>
+    <input type="text" id="lastName" name="soyad">
+
+    <label for="number">Numara</label>
+    <input type="text" id="number" name="numara">
+
+    <input type="button" value="Kaydet" onclick="addNumber()">
+
+</form>
+</body>
+
+
+</html>

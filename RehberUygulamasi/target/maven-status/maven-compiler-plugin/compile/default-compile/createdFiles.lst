@@ -1,0 +1,6 @@
+db\entity\Numara.class
+db\service\NumaraServis.class
+db\dao\NumaraDao.class
+db\dao\NumaraImpl.class
+servlet\NumaraEkleServlet.class
+db\HibernateUtil.class
